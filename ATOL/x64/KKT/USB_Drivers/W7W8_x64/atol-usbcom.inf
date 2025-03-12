@@ -1,0 +1,671 @@
+; 
+; GENERATED FILE. DO NOT EDIT!
+; 
+; setup information file
+; 
+; Copyright (c) 2015-2017 
+;
+
+;******************************************************************************
+; Version Section
+;------------------------------------------------------------------------------
+[Version]
+Signature = "$Windows NT$"
+DriverVer = 03/13/2017,1.26.0.0
+Provider = %S_Provider%
+CatalogFile = atol-usbcom.cat
+
+Class = Ports
+ClassGuid = {4d36e978-e325-11ce-bfc1-08002be10318}
+
+;******************************************************************************
+; Manufacturer
+;------------------------------------------------------------------------------
+[Manufacturer]
+%S_Mfg% = _Models,ntamd64
+
+;******************************************************************************
+; Device Models
+;------------------------------------------------------------------------------
+[_Models.ntamd64]
+"ATOL FPrint USB" = _Install_0,USB\VID_2912&PID_0001
+"ATOL Drive USB" = _Install_1,USB\VID_2912&PID_1000
+"ATOL USB" = _Install_2,USB\VID_2912&PID_0002
+"ATOL USB" = _Install_3,USB\VID_2912&PID_0003
+"ATOL USB" = _Install_4,USB\VID_2912&PID_0004&MI_00
+"ATOL USB" = _Install_5,USB\VID_2912&PID_0004&MI_02
+"ATOL USB" = _Install_6,USB\VID_2912&PID_0005&MI_00
+"ATOL USB" = _Install_7,USB\VID_2912&PID_0005&MI_02
+"ATOL USB" = _Install_8,USB\VID_2912&PID_0006&MI_00
+"ATOL USB" = _Install_9,USB\VID_2912&PID_0006&MI_02
+"ATOL USB" = _Install_10,USB\VID_2912&PID_0007&MI_00
+"ATOL USB" = _Install_11,USB\VID_2912&PID_0007&MI_02
+"ATOL USB" = _Install_12,USB\VID_2912&PID_0008
+"ATOL USB" = _Install_13,USB\VID_2912&PID_0009
+"ATOL USB" = _Install_14,USB\VID_2912&PID_000A
+"ATOL USB" = _Install_15,USB\VID_2912&PID_000B
+"ATOL USB" = _Install_16,USB\VID_2912&PID_000C
+
+[_Install_0.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_0.ntamd64.HW]
+AddReg = _AddReg_0
+
+[_Install_0.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_0.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_0.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_1.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_1.ntamd64.HW]
+AddReg = _AddReg_1
+
+[_Install_1.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_1.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_1.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_2.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_2.ntamd64.HW]
+AddReg = _AddReg_2
+
+[_Install_2.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_2.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_2.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_3.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_3.ntamd64.HW]
+AddReg = _AddReg_3
+
+[_Install_3.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_3.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_3.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_4.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_4.ntamd64.HW]
+AddReg = _AddReg_4
+
+[_Install_4.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_4.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_4.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_5.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_5.ntamd64.HW]
+AddReg = _AddReg_5
+
+[_Install_5.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_5.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_5.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_6.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_6.ntamd64.HW]
+AddReg = _AddReg_6
+
+[_Install_6.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_6.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_6.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_7.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_7.ntamd64.HW]
+AddReg = _AddReg_7
+
+[_Install_7.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_7.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_7.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_8.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_8.ntamd64.HW]
+AddReg = _AddReg_8
+
+[_Install_8.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_8.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_8.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_9.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_9.ntamd64.HW]
+AddReg = _AddReg_9
+
+[_Install_9.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_9.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_9.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_10.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_10.ntamd64.HW]
+AddReg = _AddReg_10
+
+[_Install_10.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_10.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_10.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_11.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_11.ntamd64.HW]
+AddReg = _AddReg_11
+
+[_Install_11.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_11.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_11.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_12.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_12.ntamd64.HW]
+AddReg = _AddReg_12
+
+[_Install_12.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_12.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_12.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_13.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_13.ntamd64.HW]
+AddReg = _AddReg_13
+
+[_Install_13.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_13.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_13.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_14.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_14.ntamd64.HW]
+AddReg = _AddReg_14
+
+[_Install_14.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_14.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_14.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_15.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_15.ntamd64.HW]
+AddReg = _AddReg_15
+
+[_Install_15.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_15.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_15.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+[_Install_16.ntamd64]
+CopyFiles = _CopyFiles_sys
+AddReg = _AddReg_Common
+
+[_Install_16.ntamd64.HW]
+AddReg = _AddReg_16
+
+[_Install_16.ntamd64.Services]
+AddService = atol-usbcom,0x00000002,_ServiceInst,_EventLog
+
+[_Install_16.ntamd64.CoInstallers]
+CopyFiles = _CopyFiles_CoInstaller
+AddReg = _AddReg_CoInstaller
+
+[_Install_16.ntamd64.Wdf]
+KmdfService = atol-usbcom,_WdfInstall
+
+;******************************************************************************
+; Service Installation
+;------------------------------------------------------------------------------
+[_ServiceInst]
+ServiceType = 1
+StartType = 3
+ErrorControl = 1
+ServiceBinary = %12%\atol-usbcom.sys
+DelReg = _DelReg_DriverParameters
+AddReg = _AddReg_DriverParameters,_AddReg_LicenseData
+
+[_EventLog]
+AddReg = _AddReg_EventLog
+
+[_AddReg_EventLog]
+HKR,,"EventMessageFile",%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\atol-usbcom.sys"
+HKR,,"TypesSupported",%REG_DWORD%,0x00000007
+
+;******************************************************************************
+; Common Settings
+;------------------------------------------------------------------------------
+[_AddReg_Common]
+; it's a serial port
+HKR,,"PortSubClass",%REG_BINARY%,01
+; default property page
+HKR,,"EnumPropPages32",,"MsPorts.dll,SerialPortPropPageProvider"
+
+;******************************************************************************
+; Device Settings for ATOL FPrint USB
+;------------------------------------------------------------------------------
+[_AddReg_0]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL Drive USB
+;------------------------------------------------------------------------------
+[_AddReg_1]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_2]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_3]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_4]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_5]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_6]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_7]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_8]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_9]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_10]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_11]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_12]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_13]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_14]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_15]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; Device Settings for ATOL USB
+;------------------------------------------------------------------------------
+[_AddReg_16]
+HKR,,"UseProxyDevice",%REG_DWORD%,0x00000001
+HKR,,"AdditionalInterfaceGuid",%REG_SZ%,"{9D194A2A-FBC4-42E9-A34F-9C71BDAE2711}"
+HKR,,"SetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"SetControlLineStateSupported",%REG_DWORD%,0x00000000
+HKR,,"SendBreakSupported",%REG_DWORD%,0x00000000
+HKR,,"GetLineCodingSupported",%REG_DWORD%,0x00000000
+HKR,,"DeviceObjectName",%REG_SZ%,"FPrintUSB"
+
+;******************************************************************************
+; License data
+;------------------------------------------------------------------------------
+[_AddReg_LicenseData]
+; license data record, created 2017-05-18 17:44:24
+HKR, ParametersTL\License, format, %REG_DWORD%, 1
+HKR, ParametersTL\License, customer, %REG_DWORD%, 1532
+HKR, ParametersTL\License, options, %REG_DWORD%, 0x00000104  ; Version VidPid 
+HKR, ParametersTL\License, begin, %REG_BINARY%, 00,00,00,00,00,00,00,00
+HKR, ParametersTL\License, end, %REG_BINARY%, 00,00,00,00,00,00,00,00
+HKR, ParametersTL\License, version, %REG_DWORD%, 0x0001001A  ; v1.26
+HKR, ParametersTL\License, features, %REG_BINARY%, 00,00,00,00,00,00,00,00  ; 0x0000000000000000
+HKR, ParametersTL\License, salt, %REG_BINARY%, E4,A7,9A,01,F0,62,FB,00
+HKR, ParametersTL\License, tag, %REG_BINARY%, 46,0F,0C,91,BE,B5,7D,60,55,BB,DF,E9,2A,6D,30,ED,DE,95,FB,D4,AF,72,D9,94,7A,2F,07,01,2D,E7,8D,20
+HKR, ParametersTL\License\vidpid, count, %REG_DWORD%, 13
+HKR, ParametersTL\License\vidpid, 0000, %REG_DWORD%, 0x29120001  ; VID=0x2912 PID=0x0001
+HKR, ParametersTL\License\vidpid, 0001, %REG_DWORD%, 0x29121000  ; VID=0x2912 PID=0x1000
+HKR, ParametersTL\License\vidpid, 0002, %REG_DWORD%, 0x29120002  ; VID=0x2912 PID=0x0002
+HKR, ParametersTL\License\vidpid, 0003, %REG_DWORD%, 0x29120003  ; VID=0x2912 PID=0x0003
+HKR, ParametersTL\License\vidpid, 0004, %REG_DWORD%, 0x29120004  ; VID=0x2912 PID=0x0004
+HKR, ParametersTL\License\vidpid, 0005, %REG_DWORD%, 0x29120005  ; VID=0x2912 PID=0x0005
+HKR, ParametersTL\License\vidpid, 0006, %REG_DWORD%, 0x29120006  ; VID=0x2912 PID=0x0006
+HKR, ParametersTL\License\vidpid, 0007, %REG_DWORD%, 0x29120007  ; VID=0x2912 PID=0x0007
+HKR, ParametersTL\License\vidpid, 0008, %REG_DWORD%, 0x29120008  ; VID=0x2912 PID=0x0008
+HKR, ParametersTL\License\vidpid, 0009, %REG_DWORD%, 0x29120009  ; VID=0x2912 PID=0x0009
+HKR, ParametersTL\License\vidpid, 0010, %REG_DWORD%, 0x2912000A  ; VID=0x2912 PID=0x000A
+HKR, ParametersTL\License\vidpid, 0011, %REG_DWORD%, 0x2912000B  ; VID=0x2912 PID=0x000B
+HKR, ParametersTL\License\vidpid, 0012, %REG_DWORD%, 0x2912000C  ; VID=0x2912 PID=0x000C
+
+;******************************************************************************
+; Driver parameters
+;------------------------------------------------------------------------------
+[_DelReg_DriverParameters]
+HKR,Parameters
+HKR,ParametersTL
+
+[_AddReg_DriverParameters]
+
+;******************************************************************************
+; Device Co-Installer Registration
+;------------------------------------------------------------------------------
+[_AddReg_CoInstaller]
+HKR,,"CoInstallers32",%REG_MULTI_SZ%,"WdfCoInstaller01011.dll,WdfCoInstaller"
+
+;******************************************************************************
+; Wdf Installation
+;------------------------------------------------------------------------------
+[_WdfInstall]
+KmdfLibraryVersion = 1.11
+
+;******************************************************************************
+; 0x00004000 = COPYFLG_IN_USE_RENAME, rename driver if in use
+;------------------------------------------------------------------------------
+[_CopyFiles_sys]
+atol-usbcom.sys,,,0x00004000
+
+;******************************************************************************
+; Destination Directories
+;------------------------------------------------------------------------------
+[DestinationDirs]
+_CopyFiles_sys = 12
+_CopyFiles_CoInstaller = 11
+
+;******************************************************************************
+; Installation Disk
+;------------------------------------------------------------------------------
+[SourceDisksNames.amd64]
+1 = %S_DiskName%
+
+;******************************************************************************
+; Files on the Installation Disk
+;------------------------------------------------------------------------------
+[SourceDisksFiles.amd64]
+atol-usbcom.sys = 1
+WdfCoInstaller01011.dll = 1
+
+;******************************************************************************
+; 0x00004000 = COPYFLG_IN_USE_RENAME, rename driver if in use
+;------------------------------------------------------------------------------
+[_CopyFiles_CoInstaller]
+WdfCoInstaller01011.dll,,,0x00004000
+
+;******************************************************************************
+; Strings
+;------------------------------------------------------------------------------
+[Strings]
+; 
+; Registry value types. DO NOT MODIFY!
+;
+REG_SZ = 0x00000000
+REG_EXPAND_SZ = 0x00020000
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
+REG_DWORD = 0x00010001
+REG_BINARY = 0x00000001
+
+S_Provider = "Atol"
+S_Mfg = "Atol"
+S_DiskName = "Driver Installation Disk"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; EOF ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
